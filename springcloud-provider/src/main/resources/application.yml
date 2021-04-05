@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: provider-client
+server:
+  port: ${PORT:8082}
+eureka:
+  client:
+    service-url:
+      defaultZone: ${EUREKA_URL:http://admin:admin123@localhost:8761/eureka/}
+  instance:
+    prefer-ip-address: true
+management:
+  security:
+    enabled: false
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+  endpoint:
+    shutdown:
+      enabled: true

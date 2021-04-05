@@ -1,0 +1,12 @@
+server:
+  port: ${port:8761}
+eureka:
+  client:
+      register-with-eureka: false
+      fetch-registry: false
+security:
+    basic:
+      enabled: true
+    user:
+      name: admin
+      password: admin123
