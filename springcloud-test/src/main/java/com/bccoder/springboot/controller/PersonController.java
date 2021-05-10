@@ -1,6 +1,7 @@
-package springboot.controller;
+package com.bccoder.springboot.controller;
 
 import com.bccoder.springboot.bean.Person;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.ArrayList;
 import java.util.List;
