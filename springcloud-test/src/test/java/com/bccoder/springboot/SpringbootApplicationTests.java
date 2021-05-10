@@ -1,2 +1,7 @@
-package com.bccoder.springboot;public class SpringbootApplicationTests {
+package com.bccoder.springboot;
+
+import org.springframework.boot.test.context.SpringBootTest;
+
+@SpringBootTest
+public class SpringbootApplicationTests {
 }
